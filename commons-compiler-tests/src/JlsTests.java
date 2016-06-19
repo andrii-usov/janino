@@ -205,7 +205,7 @@ class JlsTests extends JaninoTestSuite {
             + "import java.util.*;\n"
             + "final List<String> l = new ArrayList();\n"
             + "l.add(\"x\");\n"
-            + "final Iterator<Integer> it = l.iterator();\n"
+            + "final Iterator<String> it = l.iterator();\n"
             + "return it.hasNext() && \"x\".equals(it.next()) && !it.hasNext();"
         );
     }
